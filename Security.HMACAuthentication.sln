@@ -3,7 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.27130.2036
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Security.HMACAuthentication.DelegatingHandlers", "Security.HMACAuthentication.DelegatingHandlers\Security.HMACAuthentication.DelegatingHandlers.csproj", "{2228B278-5394-4273-BA2C-D4FB9E863AEE}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Security.HMACAuthentication.DelegatingHandlers", "Security.HMACAuthentication.DelegatingHandlers\Security.HMACAuthentication.DelegatingHandlers.csproj", "{2228B278-5394-4273-BA2C-D4FB9E863AEE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DelegatingHandlersTests", "DelegatingHandlersTests\DelegatingHandlersTests.csproj", "{A962425F-3905-4C0E-B7CF-F78219F98F56}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +17,10 @@ Global
 		{2228B278-5394-4273-BA2C-D4FB9E863AEE}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2228B278-5394-4273-BA2C-D4FB9E863AEE}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2228B278-5394-4273-BA2C-D4FB9E863AEE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A962425F-3905-4C0E-B7CF-F78219F98F56}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A962425F-3905-4C0E-B7CF-F78219F98F56}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A962425F-3905-4C0E-B7CF-F78219F98F56}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A962425F-3905-4C0E-B7CF-F78219F98F56}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -1,4 +1,5 @@
 ﻿using Security.HMACAuthentication.Interfaces;
+using System;
 using System.Net.Http;
 using System.Net.Http.Headers;
 using System.Threading;
@@ -17,6 +18,8 @@ namespace Security.HMACAuthentication.DelegatingHandlers.DelegatingHandlers
             _hashKeys = hashKeys;
             _signer = new Signer();
             _authHeaderSerializer = new AuthorisationHeaderSerializer();
+
+            InnerHandler = new HttpClientHandler();
         }
 
         protected async override Task<HttpResponseMessage> SendAsync(HttpRequestMessage request, CancellationToken cancellationToken)
