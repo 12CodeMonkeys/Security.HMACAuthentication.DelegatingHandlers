@@ -3,6 +3,10 @@
     <PropertyGroup>
         <TargetFramework>netstandard2.0</TargetFramework>
         <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+        <RepositoryUrl>https://github.com/12CodeMonkeys/Security.HMACAuthentication.DelegatingHandlers</RepositoryUrl>
+        <PackageProjectUrl>https://github.com/12CodeMonkeys/Security.HMACAuthentication.DelegatingHandlers</PackageProjectUrl>
+        <AssemblyVersion>1.0.0.1</AssemblyVersion>
+        <Version>1.0.0.1</Version>
     </PropertyGroup>
 
     <ItemGroup>
